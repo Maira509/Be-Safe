@@ -9,10 +9,11 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="317dp"
-        android:layout_height="384dp"
-        android:layout_marginTop="28dp"
+        android:layout_width="307dp"
+        android:layout_height="284dp"
+        android:layout_marginTop="148dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.609"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/safeye" />
@@ -21,16 +22,16 @@
         android:id="@+id/eye"
         android:layout_width="189dp"
         android:layout_height="62dp"
-        android:textSize="20dp"
-
         android:backgroundTint="#FFC107"
+
         android:text="Let's Go"
+        android:textSize="20dp"
         app:icon="@android:drawable/ic_media_ff"
 
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintHorizontal_bias="0.579"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView"
-        app:layout_constraintVertical_bias="0.237" />
+        app:layout_constraintVertical_bias="0.223" />
 </androidx.constraintlayout.widget.ConstraintLayout>
